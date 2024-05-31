@@ -5,6 +5,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="userService" class="com.phi.impl.UserServiceImpl"/>
+    <bean id="userService" class="com.phi.service.impl.UserServiceImpl"/>
+
+    <bean id="userDao" class="com.phi.dao.impl.UserDaoImpl"/>
 
 </beans>

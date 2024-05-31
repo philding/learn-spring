@@ -1,5 +1,6 @@
 package com.phi.main;
 
+import com.phi.dao.UserDao;
 import com.phi.service.UserService;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
@@ -18,7 +19,9 @@ public class Main {
 
         //根据id获取实例对象
         UserService userService = (UserService) beanFactory.getBean("userService");
-
         System.out.println(userService);
+
+        UserDao userDao = (UserDao) beanFactory.getBean("userDao");
+        System.out.println(userDao);
     }
 }
