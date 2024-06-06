@@ -1,13 +1,13 @@
-package com.phi.main;
+package com.phi.test;
 
 import com.phi.dao.UserDao;
 import com.phi.service.UserService;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 
-public class Main {
-
+public class BeanFactoryTest {
     public static void main(String[] args) {
+
         //创建工厂对象
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory ();
 
