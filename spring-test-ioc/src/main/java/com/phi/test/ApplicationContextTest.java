@@ -1,9 +1,10 @@
 package com.phi.test;
 
 import com.phi.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.context.support.FileSystemXmlApplicationContext;
+
 
 /**
  * @Author: Qf.Ding
@@ -11,6 +12,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
  * @Description:
  * @Version: 1.0
  */
+@Slf4j
 public class ApplicationContextTest {
     public static void main(String[] args) {
 
