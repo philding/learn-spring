@@ -14,4 +14,5 @@
     <bean id="studentService" class="com.phi.service.impl.StudentServiceImpl">
         <property name="service" value="com.phi.dao.impl.UserDaoImpl"/>
     </bean>
+    <bean class="com.phi.processor.MyBeanFactoryPostProcessor"/>
 </beans>
