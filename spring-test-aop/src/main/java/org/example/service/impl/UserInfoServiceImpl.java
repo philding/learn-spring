@@ -1,6 +1,6 @@
 package org.example.service.impl;
 
-import lombok.AllArgsConstructor;
+
 import org.example.dao.UserDao;
 import org.example.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;

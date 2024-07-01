@@ -1,7 +1,9 @@
 package org.example.advice;
 
-public class LogAdvice {
+import org.springframework.stereotype.Component;
 
+@Component
+public class LogAdvice {
 
     public void beforePrintInputLog() {
         System.out.println("入参打印");
