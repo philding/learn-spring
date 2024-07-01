@@ -10,5 +10,6 @@ public class UserDaoImpl implements UserDao {
     @Override
     public void findUserInfo() {
 
+        System.out.println("DAO层读取db");
     }
 }
